@@ -90,6 +90,27 @@ class Node:
         if self.col > 0 and not grid[self.row][self.col - 1].is_barrier():  # Left
             self.neighbors.append(grid[self.row][self.col - 1])
 
+        # TODO: Diagonals: make sure they dont go through the barriers
+
+        # if (self.col > 0 and self.row > 0) and not grid[self.row - 1][
+        #     self.col - 1
+        # ].is_barrier():  # Top Left
+        #     self.neighbors.append(grid[self.row - 1][self.col - 1])
+        # if (self.row < self.total_rows - 1 and self.col > 0) and not grid[self.row + 1][
+        #     self.col - 1
+        # ].is_barrier():  # Top right
+        #     self.neighbors.append(grid[self.row + 1][self.col - 1])
+        # if (self.col < self.total_rows - 1 and self.row > 0) and not grid[self.row - 1][
+        #     self.col + 1
+        # ].is_barrier():  # Bottom left
+        #     self.neighbors.append(grid[self.row - 1][self.col + 1])
+        # if (
+        #     self.col < self.total_rows - 1 and self.row < self.total_rows - 1
+        # ) and not grid[self.row + 1][
+        #     self.col + 1
+        # ].is_barrier():  # Bottom right
+        #     self.neighbors.append(grid[self.row + 1][self.col + 1])
+
     def __lt__(self, other):
         return False
 
