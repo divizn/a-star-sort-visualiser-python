@@ -4,6 +4,6 @@ An A* Pathfinding visualiser that I made by using <a href="https://www.pygame.or
 
 <h2> Images </h2>
 
-<img src="https://im4.ezgif.com/tmp/ezgif-4-b44afcbe73.gif">
+<img src="https://media4.giphy.com/media/Azk8n4mMybkNNv56Xx/giphy.gif">
 <a href="#"><img src="https://i.imgur.com/GAO5CWR.png"></a>
 <a href="#"><img src="https://i.imgur.com/7GFKDKN.png"></a>
